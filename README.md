@@ -19,8 +19,8 @@ cd planning-as-a-service/server
 
 Please create a new environment file called .env, and set up the following variable. You can reference the provided `.env.example` file.
 
-* FLOWER_USERNAME=username #Flower Moinitor Username
-* FLOWER_PASSWORD=password #Flower Moinitor Password
+* FLOWER_USERNAME=username #Flower Monitor Username
+* FLOWER_PASSWORD=password #Flower Monitor Password
 * MAX_MEMORY_PER_DOCKER_WORKER=4096M #Max memory each Celery worker/container can consume
 * WORKER_NUMBERS=12 #Number of Celery worker/containers
 * TIME_LIMIT=30 #Time limit per celery task in seconds
