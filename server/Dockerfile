@@ -9,13 +9,13 @@ RUN planutils install -f -y lama-first
 RUN planutils install -f -y dual-bfws-ffparser
 
 #Optimal classical planning
-RUN planutils install -f -y delfi
+# RUN planutils install -f -y delfi
 
 # top-k classical planning
-RUN planutils install -f -y forbiditerative-topk
+# RUN planutils install -f -y forbiditerative-topk
 
 # numeric planning
-RUN planutils install -f -y enhsp-2020
+# RUN planutils install -f -y enhsp-2020
 
 # PDDL3 support
 RUN planutils install -f -y optic
